@@ -205,7 +205,7 @@ app.get('/api/v1/playlist', function(req, res) {
     function(err, response) {
        
 	console.log("Sending the JSON Response for the metadata of all Videos..."); 
-	res.send(response["two"]); //Send the second item in the response array back as API Response
+	res.status(200).send(response["two"]); //Send the second item in the response array back as API Response
    }
 );
 
