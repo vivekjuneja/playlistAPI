@@ -34,4 +34,11 @@ npm install googleapis
 
 7. Run the playlist_api.js using the command line arguments :-
 
-node playlist_api.js dropBoxKey=XXXXX dropBoxSecret=XXXXX dropBoxToken=XXXXX googleApiKey=XXXXX googleUsername=XXXXX
+   node playlist_api.js dropBoxKey=XXXXX dropBoxSecret=XXXXX dropBoxToken=XXXXX googleApiKey=XXXXX googleUsername=XXXXX
+
+8. Once the server starts, access the API using a Browser or a REST Client using the URI :-
+   
+   http://<HOSTNAME>:8080/api/v1/playlist
+
+   Test using Curl :-
+   curl -i -H "Accept: application/json" http://localhost:8080/api/v1/playlist
