@@ -59,3 +59,6 @@ Follow the steps :-
 
    Test using Curl :-
    curl -i -H "Accept: application/json" http://HOSTNAME:8080/api/v1/playlist
+   
+
+9. Error Response has NOT been added yet. Need to add that in the next revision
