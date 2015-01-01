@@ -38,7 +38,7 @@ npm install googleapis
 
 8. Once the server starts, access the API using a Browser or a REST Client using the URI :-
    
-   http://<HOSTNAME>:8080/api/v1/playlist
+   http://HOSTNAME:8080/api/v1/playlist
 
    Test using Curl :-
    curl -i -H "Accept: application/json" http://localhost:8080/api/v1/playlist
