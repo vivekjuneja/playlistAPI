@@ -41,4 +41,4 @@ npm install googleapis
    http://HOSTNAME:8080/api/v1/playlist
 
    Test using Curl :-
-   curl -i -H "Accept: application/json" http://localhost:8080/api/v1/playlist
+   curl -i -H "Accept: application/json" http://HOSTNAME:8080/api/v1/playlist
