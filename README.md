@@ -22,3 +22,15 @@ Follow the steps :-
  
 
 4. That's all. The credentials from step 2 and 3 are needed to configure the API Implementation. Please KEEP THIS INFORMATION handy, as you would need it configure the API Implementation. 
+
+5. Install NodeJS on your system 
+
+6. Install the NodeJS libraries :-
+npm install express
+npm install body-parser
+npm install async
+npm install dropbox
+npm install googleapis
+
+7. Run the playlist_api.js using the command line arguments :-
+node playlist_api.js dropBoxKey=XXXXX dropBoxSecret=XXXXX dropBoxToken=XXXXX googleApiKey=XXXXX googleUsername=XXXXX
