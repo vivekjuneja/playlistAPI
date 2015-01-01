@@ -36,15 +36,18 @@ Follow the steps :-
 
 6. Install the NodeJS libraries :-
 
-npm install express
+    npm install express
+    
+    npm install body-parser
+    
+    npm install async
+    
+    npm install dropbox
+    
+    npm install googleapis
 
-npm install body-parser
 
-npm install async
-
-npm install dropbox
-
-npm install googleapis
+*Running API :-*
 
 7. Run the playlist_api.js using the command line arguments :-
 
