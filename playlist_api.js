@@ -211,5 +211,10 @@ app.get('/api/v1/playlist', function(req, res) {
 
 });
 
+//Logs the error
+function showError(error) { 
+ console.log(error); 
+}
+
 console.log('starting server for the Playlist API.... at 8080 port');
 app.listen(process.env.PORT || 8080);
